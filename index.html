@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Seni Çok Seviyorum İyi ki Biz</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #fff0f5;
+            color: #333;
+            margin: 0;
+            padding: 0 20px;
+        }
+        header {
+            text-align: center;
+            padding: 30px 0 10px;
+            color: #b33a3a;
+        }
+        h1 {
+            font-size: 2.8em;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+        .intro {
+            font-style: italic;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+            gap: 15px;
+            max-width: 900px;
+            margin: 0 auto 40px auto;
+        }
+        .gallery img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgb(179 58 58 / 0.3);
+            object-fit: cover;
+            height: 150px;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .quotes {
+            max-width: 600px;
+            margin: 0 auto 40px auto;
+            background: #ffe6f0;
+            padding: 20px 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgb(179 58 58 / 0.15);
+        }
+        .quotes p {
+            font-size: 1.2em;
+            margin: 15px 0;
+            font-weight: 600;
+            color: #a02a2a;
+        }
+        .music {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        footer {
+            text-align: center;
+            font-weight: 600;
+            color: #b33a3a;
+            margin-bottom: 20px;
+            font-size: 1.2em;
+        }
+        @media (max-width: 600px) {
+            .gallery img {
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seni Çok Seviyorum İyi ki Biz</h1>
+    </header>
+
+    <section class="intro">
+        <p>Belki ikimizinde başkasında olsa dalga geçeceği ya da bazen duraksayıp ta anlatabileceği bir tanışmamız var. O story’ini beğenmek yaptığım en iyi şeydi. Seni seviyorum.</p>
+    </section>
+
+    <section class="gallery">
+        <img src="https://picsum.photos/id/1011/300/200" alt="Fotoğraf 1" />
+        <img src="https://picsum.photos/id/1012/300/200" alt="Fotoğraf 2" />
+        <img src="https://picsum.photos/id/1015/300/200" alt="Fotoğraf 3" />
+        <img src="https://picsum.photos/id/1016/300/200" alt="Fotoğraf 4" />
+        <img src="https://picsum.photos/id/1020/300/200" alt="Fotoğraf 5" />
+        <img src="https://picsum.photos/id/1024/300/200" alt="Fotoğraf 6" />
+        <img src="https://picsum.photos/id/1027/300/200" alt="Fotoğraf 7" />
+        <img src="https://picsum.photos/id/1033/300/200" alt="Fotoğraf 8" />
+        <img src="https://picsum.photos/id/1035/300/200" alt="Fotoğraf 9" />
+        <img src="https://picsum.photos/id/1039/300/200" alt="Fotoğraf 10" />
+        <img src="https://picsum.photos/id/1041/300/200" alt="Fotoğraf 11" />
+        <img src="https://picsum.photos/id/1043/300/200" alt="Fotoğraf 12" />
+    </section>
+
+    <section class="quotes">
+        <p>1. Seni çokun çokun çoksuuu seviyorum.</p>
+        <p>2. 20 Yaşında yaşlandı desende senin sayende içimdeki çocuk gülüyor.</p>
+    </section>
+
+    <section class="music">
+        <iframe width="320" height="180" src="https://www.youtube.com/embed/cQpBXn6MYS0" 
+            title="YouTube şarkı oynatıcı" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+    </section>
+
+    <footer>
+        <p>Kayra &amp; Nehir</p>
+    </footer>
+</body>
+</html>
